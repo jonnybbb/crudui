@@ -10,7 +10,7 @@ import com.vaadin.flow.data.renderer.ComponentRenderer;
 /**
  * @author Alejandro Duarte
  */
-public class ComboBoxProvider<T> extends AbstractListingProvider<ComboBox<T>, T> {
+public class ComboBoxProvider<T > extends AbstractListingProvider<ComboBox<T>, T> {
 
     private ItemLabelGenerator<T> itemLabelGenerator;
 

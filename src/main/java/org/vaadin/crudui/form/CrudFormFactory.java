@@ -38,9 +38,9 @@ public interface CrudFormFactory<T> extends Serializable {
 
     void setFieldCreationListener(String property, FieldCreationListener listener);
 
-    void setFieldProvider(CrudOperation operation, String property, FieldProvider<?, ?> provider);
+    void setFieldProvider(CrudOperation operation, String property, FieldProvider provider);
 
-    void setFieldProvider(String property, FieldProvider<?, ?> provider);
+    void setFieldProvider(String property, FieldProvider provider);
 
     void setUseBeanValidation(CrudOperation operation, boolean useBeanValidation);
 
